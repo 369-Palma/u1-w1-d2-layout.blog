@@ -9,21 +9,24 @@
   </head>
   <body>
     <header>
-      <h1>Sviluppo di una pagina web - Blog Epicode</h1>
+      <h1>
+        <strong>Epicode - il blog dei developers</strong>
+      </h1>
       <p>
         Primi passi operativi per creareun modello di pagina HTML per un
         post.<br />Scopri come in inziare in modo facile.
       </p>
+
+      <hr />
+      <!--creazione del menù di navigazione-->
+      <nav>
+        <!--menù-->
+        <p><a href="sitoweb" target="_blank">Home</a></p>
+        <p><a href="sitoweb" target="_blank">Articoli</a></p>
+        <p></p>
+        <a href="sitoweb" target="_blank">Job</a>
+      </nav>
     </header>
-    <hr />
-    <!--creazione del menù di navigazione-->
-    <nav>
-      <h3>Menù:</h3>
-      <p><a href="sitoweb" target="_blank">Home</a></p>
-      <p><a href="sitoweb" target="_blank">Articoli</a></p>
-      <p></p>
-      <a href="sitoweb" target="_blank">Job</a>
-    </nav>
     <!--crezione sezione principale: titolo post-->
     <hr />
     <main>
@@ -35,7 +38,9 @@
       </p>
       <p>Le varie aree saranno quindi divise in:</p>
       <ul>
-        <li>Contenuti di intestazioni del tag < header ></li>
+        <li>
+          Contenuti di intestazioni del tag <code tag&lt; header&gt></code>
+        </li>
         <li>Contenuti centrali varibili del tag < main > (corpo principale)</li>
         <li>Contenuti di fine agina comuni, da inserire nel tag < footer ></li>
         <li>Formattazione del codice</li>
@@ -44,7 +49,7 @@
         Il testo dell'articolo dovrà essere formattato per identificare tutte le
         parti da selezionare con i CSS. Perciò i passi saranno:
       </p>
-      <ul>
+      <ol>
         <li>
           Progettare il markup assegnando ad ogni specifico test il tag apposito
         </li>
@@ -57,7 +62,7 @@
           L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere
           la diffusione pressochè totale
         </li>
-      </ul>
+      </ol>
       <!--Tabella a tre colonne-->
       <table>
         <caption>
@@ -65,8 +70,8 @@
         </caption>
         <tr>
           <td colspan="10">Anno</td>
-          <td colspan="10">% di <br>utilizzo</td>
-          <td colspan="10">Supporto <br>browsers</td>
+          <td colspan="10">% di <br />utilizzo</td>
+          <td colspan="10">Supporto <br />browsers</td>
         </tr>
         <tr>
           <td colspan="10">2000</td>
@@ -100,36 +105,43 @@
         scopo. Una volta ottimizzato il tutto, avremo raggiunto il nostro
         obiettivo ed essere stati dei veri developers come loro:<br />
       </p>
-        
-        
-          <p>
-          <iframe width="250" height="250" src="https://www.youtube.com/embed/dvOvHXruEDM" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        </a
+
+      <p>
+        <iframe
+          width="250"
+          height="250"
+          src="https://www.youtube.com/embed/dvOvHXruEDM"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
       </p>
-      <p> Vuoi rimanere aggiornato sulle altre novità del blog? Iscriviti alla nostra newsletter:
+      <p>
+        Vuoi rimanere aggiornato sulle altre novità del blog? Iscriviti alla
+        nostra newsletter:
         <!--Form newsletter-->
       </p>
-      <form onsubmit="alert('Form inviato')">
-        <input type="email"placeholder="Inserisci la tua email">
-        <button type="submit">REGISTRATI</button>
-      </form>
+      <fieldset>
+        <form onsubmit="alert('Form inviato')">
+          <input type="email" placeholder="Inserisci la tua email" />
+          <button type="submit">REGISTRATI</button>
+        </form>
+      </fieldset>
     </main>
-    <hr>
+    <hr />
     <side>
-     <p>
-
+      <p>
         <!--Area correlati-->
+      </p>
 
-      
-        <h3>Articoli coorelati</h3>
-        <p>Validare il codice HTML <br>
-            Cateoria:develop <br>
-            Data: 18-9-2020
-     </p>
-        <p></p>
-
-      
-   
+      <h3>Articoli coorelati</h3>
+      <p>
+        Validare il codice HTML <br />
+        Cateoria:develop <br />
+        Data: 18-9-2020
+      </p>
+      <p></p>
     </side>
-</body>
-<footer>Copyright&copy;Palma Iacobelli</footer>
+  </body>
+  <footer>Copyright&copy;Palma Iacobelli</footer>
 </html>
